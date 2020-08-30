@@ -52,11 +52,17 @@ Then, in no particular order:
 
 - Firefox > View > Toolbars > Customize... > Density > Compact.
 
-- Firefox > about:config > browser.tab.warnOnClose > true.
+- Firefox > Preferences > Privacy & Security > History > Firefox Will > Use
+  custom settings for history.
 
-- Firefox > about:config > toolkit.cosmeticAnimations.enabled > false.
+- Firefox > Preferences > Privacy & Security > History > Remember search and
+  form history > false.
 
-- Firefox > about:config > layout.css.osx-font-smoothing.enable > false.
+- Firefox > about:config > `layout.css.osx-font-smoothing.enable` > false.
+
+- Firefox > about:config > `dom.event.clipboardevents.enabled` > false.
+
+- Firefox > about:config > `dom.security.https_only_mode` > true.
 
 - Flux > Preferences > Sunset > Normal/Daylight. (I use Night Shift for sunset,
   and Flux for "Bedtime".)
